@@ -14,12 +14,12 @@ export class RandomNumberSetCollection implements Iterable<Number> {
      * @param max max range
      */
     constructor(numberOfRandoms: number, min: number, max: number) {
+        this.randomNumbers = new Set<Number>();
         let random = RandomNumber.getRandomNumber();
-        let arrayRandomNumbers: number[] = [];
+        
         for (let i = 0; i < numberOfRandoms; i++) {
-            arrayRandomNumbers.push(random.getRandomIntBetween(min, max))
+            this.randomNumbers.add(random.getRandomIntBetween(min, max))
         }
-        this.randomNumbers = new Set(arrayRandomNumbers);
     }
 
     /**

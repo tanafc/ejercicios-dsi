@@ -18,7 +18,7 @@ describe('RandomSetCollection class function tests', () => {
     });
 
     it('It has a method to return the number of elements in the collection', () => {
-        console.log(randomSet.getNumbersInCollection());
+        // console.log(randomSet.getNumbersInCollection());
         expect(randomSet.getNumbersInCollection()).to.be.equal(5);
     });
 
