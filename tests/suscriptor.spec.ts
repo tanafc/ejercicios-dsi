@@ -24,5 +24,9 @@ describe('Suscriptor class function tests', () => {
         revista1.subscribe(suscriptor1);
         revista1.publish(3, ["Hello", "World"]);
         expect("update" in suscriptor1).to.be.true;
+        expect(suscriptor1.update(revista1)).to.be.equal(
+            'Soy Tana, un suscriptor de la revista Hola y he observado que ha ' +
+            'publicado el número 3 con los artículos Hello,World.'
+        )
       });
 });

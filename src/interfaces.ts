@@ -13,5 +13,5 @@ export interface Observable {
  * por las clases que observan.
  */
 export interface Observer {
-    update(observable: Observable): void;
+    update(observable: Observable): string;
 }

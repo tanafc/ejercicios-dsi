@@ -27,11 +27,12 @@ export class Suscriptor implements Observer {
      * da la información de dicha entrega
      * @param observable notificador que informa de un evento
      */
-    update(observable: Observable) {
+    update(observable: Observable): string {
         if (observable instanceof Revista) {
-            console.log(`Soy ${this.name}, un suscriptor de la revista ${observable.getName()} ` + 
-                        `y he observado que ha publicado el número ${observable.getNumber()} ` + 
-                        `con los artículos ${observable.getArticles()}.`);
+            return `Soy ${this.name}, un suscriptor de la revista ${observable.getName()} ` + 
+                    `y he observado que ha publicado el número ${observable.getNumber()} ` + 
+                    `con los artículos ${observable.getArticles()}.`;
         }
+        return '';
     }
 }
