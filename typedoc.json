@@ -2,7 +2,10 @@
   "entryPoints": [
     "./src/modificacion.ts",
     "./src/random_number.ts",
-    "./src/random_set_collection.ts"
+    "./src/random_set_collection.ts",
+    "./src/interfaces.ts",
+    "./src/revista.ts",
+    "./src/suscriptor.ts"
   ],
   "out": "./docs"
 }
