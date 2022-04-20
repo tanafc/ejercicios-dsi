@@ -38,6 +38,6 @@ export abstract class MapReduce {
         return result
     }
 
-    /** Functions to implemeny by subclasses */
+    /** Functions to implement by subclasses */
     protected abstract myReduce(array: number[]): number;
 }
