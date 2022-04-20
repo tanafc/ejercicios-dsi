@@ -10,7 +10,7 @@ export abstract class MapReduce {
     protected afterReduce(): string { return '' }
 
     /** Functions that subclasses can overwrite */
-    public myMap(myFunction: (num: number) => number) {
+    protected myMap(myFunction: (num: number) => number) {
         let newNumArray: number[] = []
         this.numArray.forEach(num => {
             let newNum = num;
