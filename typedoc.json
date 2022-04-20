@@ -5,7 +5,10 @@
     "./src/random_set_collection.ts",
     "./src/interfaces.ts",
     "./src/revista.ts",
-    "./src/suscriptor.ts"
+    "./src/suscriptor.ts",
+    "./src/mapReduce.ts",
+    "./src/addMapReduce.ts",
+    "./src/prodMapReduce.ts"
   ],
   "out": "./docs"
 }
