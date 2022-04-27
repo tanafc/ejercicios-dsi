@@ -70,7 +70,7 @@ if (process.argv.length < 4) {
 
   access(fileName, constants.F_OK, (err) => {
     if (err) {
-      console.log(`El fichero ${fileName} no existe`);
+      console.log(`File ${fileName} does not exist`);
     } else {
       let watcher = new FileWatcher(fileName, commands);
       watcher.start();
