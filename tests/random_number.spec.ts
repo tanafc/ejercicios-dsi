@@ -1,6 +1,6 @@
 import 'mocha';
 import {expect} from 'chai';
-import {RandomNumber} from '../src/random_number';
+import {RandomNumber} from '../src/randomNumber/random_number';
 
 describe('RandomNumber class function tests', () => {
     let random1 = RandomNumber.getRandomNumber();

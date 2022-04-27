@@ -1,7 +1,7 @@
 import 'mocha';
 import {expect} from 'chai';
-import {RandomNumber} from '../src/random_number';
-import {RandomNumberSetCollection} from '../src/random_set_collection';
+import {RandomNumber} from '../src/randomNumber/random_number';
+import {RandomNumberSetCollection} from '../src/randomNumber/random_set_collection';
 
 // describe('RandomSetCollection class function tests', () => {
 //     let randomSet = new RandomNumberSetCollection(5, 0, 10);

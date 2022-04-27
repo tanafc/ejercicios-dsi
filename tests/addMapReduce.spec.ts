@@ -1,7 +1,7 @@
 import 'mocha';
 import {expect} from 'chai';
-import {MapReduce} from '../src/mapReduce';
-import {AddMapReduce} from '../src/addMapReduce';
+import {MapReduce} from '../src/mapReduce/mapReduce';
+import {AddMapReduce} from '../src/mapReduce/addMapReduce';
 
 describe('AddMapReduce function tests', () => {
   let addMapReduce = new AddMapReduce([1, 2, 3]);

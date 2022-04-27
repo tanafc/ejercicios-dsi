@@ -1,6 +1,6 @@
 import 'mocha';
 import {expect} from 'chai';
-import {Rational} from '../src/modificacion';
+import {Rational} from '../src/rational/modificacion';
 
 describe('Rational class function tests', () => {
   let rational = new Rational(2, 4);

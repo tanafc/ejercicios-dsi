@@ -1,8 +1,8 @@
 import 'mocha';
 import {expect} from 'chai';
-import {Observable, Observer} from '../src/interfaces';
-import {Revista} from '../src/revista';
-import {Suscriptor} from '../src/suscriptor';
+import {Observable, Observer} from '../src/revista/interfaces';
+import {Revista} from '../src/revista/revista';
+import {Suscriptor} from '../src/revista/suscriptor';
 
 describe('Revista class function tests', () => {
     let revista1 = new Revista('Hola', 1, ["Hola", "Mundo"]);
